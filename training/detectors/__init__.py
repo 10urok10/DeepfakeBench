@@ -34,7 +34,7 @@ from .i3d_detector import I3DDetector
 from .altfreezing_detector import AltFreezingDetector
 from .stil_detector import STILDetector
 from .lsda_detector import LSDADetector
-from .sladd_detector import SLADDXceptionDetector
+# from .sladd_detector import SLADDXceptionDetector
 from .pcl_xception_detector import PCLXceptionDetector
 from .iid_detector import IIDDetector
 from .lrl_detector import LRLDetector

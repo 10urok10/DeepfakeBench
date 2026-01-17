@@ -1,6 +1,6 @@
 # log dir 
-log_dir: /data/home/zhiyuanyan/DeepfakeBench/debug_logs/ucf
-
+log_dir: ./logs
+checkpoint_path: './training/checkpoints/ckpt_best.pth'
 # model setting
 pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 # pretrained: '/home/zhiyuanyan/.cache/torch/hub/checkpoints/resnet34-b627a593.pth'   # path to a pre-trained model, if using one

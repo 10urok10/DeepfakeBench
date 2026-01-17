@@ -1,7 +1,25 @@
-﻿.idea
-*__pycache__*
-*.vscode*
-*.pyc
+﻿# Python gereksiz dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal Ortam (Senin bilgisayarına özeldir, yüklenmez)
+.env
+env/
+venv/
+miniconda3/
+
+# Model Ağırlıkları (Çok büyük oldukları için yüklenmez)
 *.pth
-*.pt
-*.dat
+*.tar
+*.onnx
+training/checkpoints/
+
+# Dataset ve Test Videoları
+my_dataset/
+*.mp4
+*.avi
+*.mov
+
+# Kullanıcıya özel configler (İstersen yükleyebilirsin ama genelde gerekmez)
+# my_test_config.yaml  <-- Bunu yükle, çünkü senin ayarların burada.
