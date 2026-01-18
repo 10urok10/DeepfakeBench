@@ -48,16 +48,16 @@ conda create -n DeepfakeProje python=3.8
 # 2. Ortamın aktif edilmesi
 conda activate DeepfakeProje
 
-# PyTorch (CPU Sürümü) kuralulması
+# 3. PyTorch (CPU Sürümü) kuralulması
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-# Conda üzerinden dlib kurulması
+# 4. Conda üzerinden dlib kurulması
 conda install -c conda-forge dlib
 
-# Diğer kütüphanelerin kurulması
+# 5. Diğer kütüphanelerin kurulması
 pip install -r requirements.txt
 
-# Dosyaların uygun yere konulması
+# 6. Dosyaların uygun yere konulması
 Hazır xception mimari dosyası
 DeepfakeBench\training\pretrained\xception-b5690688.pth
 xception-b5690688.pth dosyayı bu uzantıya yerleştirin.
