@@ -75,8 +75,10 @@ https://drive.google.com/file/d/1njZPtGH12WrBZdGa9etGNxASCGxWRoKW/view?usp=shari
 
 # 7. Çalıştırma
 Arayüz ile çalıştırmak için 
+
 python app.py
 
 Birden fazla video için 
 training\my_datasets\test klasörü içine videolarını koyun
+
 python predict.py
